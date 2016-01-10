@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sneak Around-tapsan kurssi.CSharp.Plugins", "Sneak Around-tapsan kurssi.CSharp.Plugins.csproj", "{2932583F-9082-9D2D-0329-4C0E4646D864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sneak Around-tapsan kurssi.CSharp", "Sneak Around-tapsan kurssi.CSharp.csproj", "{2607A487-9B31-8EFD-139C-38DB00A06926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sneak Around-tapsan kurssi.CSharp.Editor", "Sneak Around-tapsan kurssi.CSharp.Editor.csproj", "{6F7DB0BD-206C-A9E3-9437-3B143F5DDB24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2932583F-9082-9D2D-0329-4C0E4646D864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2932583F-9082-9D2D-0329-4C0E4646D864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2932583F-9082-9D2D-0329-4C0E4646D864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2932583F-9082-9D2D-0329-4C0E4646D864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2607A487-9B31-8EFD-139C-38DB00A06926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2607A487-9B31-8EFD-139C-38DB00A06926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2607A487-9B31-8EFD-139C-38DB00A06926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2607A487-9B31-8EFD-139C-38DB00A06926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7DB0BD-206C-A9E3-9437-3B143F5DDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7DB0BD-206C-A9E3-9437-3B143F5DDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7DB0BD-206C-A9E3-9437-3B143F5DDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7DB0BD-206C-A9E3-9437-3B143F5DDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
