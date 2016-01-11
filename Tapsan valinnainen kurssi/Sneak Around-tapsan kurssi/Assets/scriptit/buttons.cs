@@ -4,12 +4,13 @@ using System.Collections;
 public class buttons : MonoBehaviour//Made by Joni Silén
 {
 	void Start ()
-    {
-        UnityEngine.Cursor.visible = true;//tee kursor näkyväksi
+    {//KURSORI ON RIKKI EDITORISSA, FLICKERS showcursor of & off constantly
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;//tee kursor näkyväksi
     }
 	void Update ()
     {
-        if (Cursor.visible == false) { UnityEngine.Cursor.visible = true; }//varmista, että hiiri näkyy
+        //if (Cursor.visible == false) { UnityEngine.Cursor.visible = true; }//varmista, että hiiri näkyy
     }
     public void levelselect() { Application.LoadLevel("level select"); }//buttons and what they do
     public void exit() { Application.Quit(); }
